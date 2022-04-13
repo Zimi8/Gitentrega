@@ -1,0 +1,332 @@
+*{
+    padding:0;
+    margin: 2;
+    box-sizing: border-box;
+    background-image: none;
+}
+
+#body-casa {
+font-family: 'Nunito', sans-serif;  
+font-family: 'Rajdhani', sans-serif;
+background: url("/assets/Carrusel/FondoIConsOpacidad.png");
+}
+main {
+    background: url("/assets/Carrusel/FondoIConsOpacidad.png");
+    height:  100vh;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+header{
+    background: #fff6c9;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+
+}
+.imgHeader {
+    width: 30%;
+    float: left;
+    padding: 8px;
+}
+
+.section-descuentos {
+    background-color: #272727;
+    color: #FFFFFF; 
+    text-align: center;
+}
+nav {
+    float: right;
+    margin-top: 20px;
+    align-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    float: left;
+    padding: 15px 0;
+    padding-right: 10px;
+    position: relative;
+    margin-left: 75px;
+    margin-right: 75px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(120 74 32);
+    font-weight: bold;
+}
+
+nav ul li a {
+padding: 20px;
+
+}
+
+ /* nav ul li a::before {
+display: block;
+content: '';
+width: :100%;
+background:#444;
+height: 5px;
+top:0;
+position: absolute;
+}        */
+
+.centerImage{
+    height: 300px;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    margin-bottom: 100px;
+}
+.bannerIndex {
+    margin-bottom: 300px;
+    height:450px;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    margin-bottom: 100px;
+}
+
+.productosIndex h3 img {
+    height: 300px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    margin-top: 200 px;
+    margin-bottom: 200px;
+
+}
+span{
+    background-color: black;
+    width:max-content;
+    margin-left: 100%;
+    color: white;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 100px;
+    background: fixed;
+    /*color: white; */
+    background-color: #4c5011;
+}
+
+
+
+
+.imgFooter ul li{
+    width: 30%;
+    float: left;
+    padding: 8px;
+    color: beige;
+}
+
+.navFooter ul li a {
+    color: azure;
+    text-decoration: none;
+}
+
+.footerInfo {
+display: flex;
+float: right;
+justify-content: end;
+padding-top: 80px;
+}
+
+/* Css Productos */
+
+.video{
+    display: inline-block;
+    border-color: #4c5011;
+    margin margin-top: 50;
+    justify-content: end;
+    margin-left: 20 px;
+    background-color: #4c5011;
+    border: 20px, 20px, 20px, 20px; #4c5011;
+    b
+}
+.productos {
+    background-color:#ffe187;
+    border-radius: 20 px;
+    
+}
+img {
+    display: block;
+    justify-self: center;
+}
+/* Tarjetas Card ------------------------------------------------------ */
+
+.contenido{
+    height: 510px;
+    width:  25%;
+    box-shadow: 0 0 7px #111;
+    margin:  50px 30px0;
+    background-color: #eaffa0;
+}
+.contenido .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+
+}
+
+.card .img{
+    margin: auto;
+    display: block;
+
+}
+.contenido .Ratonera img{
+height: 360px;
+width: 330px;
+}
+/* i can dismissss esta propiedat creo, no qiero ese fondo 
+.contenido .Ratonera {
+    background-color: #f7bb08;
+} */
+
+.contenido .card mesaEnFlor{
+    height: 330px;
+    width: 230px;
+
+}
+.mesaEnFlor img{
+    height: 360px;
+    width: 330px;
+    }
+
+.estanteWhite img{
+        height: 360px;
+        width: 330px;
+        }
+.contenido .card estanteWhite{
+    height: 330px;
+    width: 230px;
+}
+.informacionCard{
+    height: 80px;
+    width: 100%;
+
+}
+.informacionCard h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #111;
+    margin-bottom:  -10px;
+
+}
+
+.informacionCard p{
+    text-align: center;
+    font-family:'Rajdhani', sans-serif;
+    font-size: .9em;
+    color: #555;
+
+}
+.precio{
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-precio{
+    width: 80px;
+}
+
+.precio1Prod {
+    color: red;
+    font-size: .8em;
+}
+.precio2Prod {
+    font-size: 1.5em;
+}
+.shopingProd{
+    font-size: 1.5em;
+    color: #555;
+}
+
+/*  CASA sección  */
+
+.contenido{
+    height: 510px;
+    width:  25%;
+    box-shadow: 0 0 7px #111;
+    margin:  50px 30px0;
+    background-color: #eaffa0;
+}
+.contenido .cardCasa{
+    height: 200px;
+    width: 100px;
+    margin-bottom: 170px;
+
+}
+
+.card .img{
+    margin: auto;
+    display: block;
+
+}
+.contenido .mueblesCasa img{
+height: 360px;
+width: 330px;
+
+
+
+/*  estilos FORMULARIO CONTACTO*/
+
+.formularioContacto{
+    
+}
+
+/* GRID de casa */
+.productos-c {  display: grid;
+    grid-template-columns: 308px 292px;
+    grid-template-rows: repeat(2, 300px);
+    gap: 3px 86px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: space-between;
+    justify-items: start;
+    align-items: center;
+    grid-template-areas:
+      "Area1 area2"
+      "area3 area4";
+  }
+  
+  .Area1 {
+    grid-row: auto;
+    justify-self: stretch;
+    align-self: stretch;
+    grid-area: Area1;
+  }
+  
+  .area2 {
+    justify-self: stretch;
+    align-self: stretch;
+    grid-area: area2;
+  }
+  
+  .area3 {
+    justify-self: stretch;
+    align-self: stretch;
+    grid-area: area3;
+  }
+  
+  .area4 {
+    justify-self: stretch;
+    align-self: stretch;
+    grid-area: area4;
+  }
+  
+
